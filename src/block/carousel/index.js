@@ -16,7 +16,7 @@ import { useSelect } from '@wordpress/data';
 
 // Internal dependencies
 import icon from '../../../blocks/carousel/icon.js';
-
+ 
 /**
  * Allowed blocks constant is passed to InnerBlocks precisely as specified here.
  * The contents of the array should never change.
