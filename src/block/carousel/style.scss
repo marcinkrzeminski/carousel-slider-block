@@ -1,0 +1,34 @@
+.wp-block-cb-carousel {
+	.slick-slide {
+		padding-left: 7.5px;
+		padding-right: 7.5px;
+		overflow: hidden;
+	}
+	.slick-next:not(:hover):not(:active), .slick-prev:not(:hover):not(:active), .slick-dots li button:not(:hover):not(:active) {
+		background-color: transparent;
+	}
+
+	.slick-next:before, .slick-prev:before {
+		color: #000;
+	}
+
+	&.alignfull {
+		.slick-prev, .slick-next {
+			z-index: 1;
+		}
+		.slick-prev {
+    	left: 25px;
+		}
+		.slick-next {
+    	right: 25px;
+		}
+	}
+}
+
+.wp-block-cb-carousel .wp-block-image, .wp-block-cb-carousel .wp-block-cover {
+	margin: 0;
+}
+
+.wp-block-cb-carousel .wp-block-image > img {
+	max-width: 100%;
+}
